@@ -1,0 +1,494 @@
+@font-face {
+    font-family: 'Amatic SC';
+    src: url("../../css/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    font-weight:bold;
+    src: url("../../css/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Anonymous';
+    src: url("../../css/AnonymousPro-Regular.ttf");
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../../css/Montserrat-Regular.ttf");
+}
+#outer_login_div {
+     padding: 30px;
+	 height:100%;
+}
+
+#login_div{
+	font-family:'Montserrat';
+margin: auto;
+     width: 30%; 
+	 background-color:#c7dfed;
+	 padding:10px;
+text-align:center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+	border-radius: 50px;
+}
+
+#login_div td{
+	
+	padding:2px;
+	
+}
+
+#login_div table{
+	
+	margin: auto;
+	margin-bottom:10px;
+	
+}
+
+
+#login_div input{
+	width:200px;
+	padding:3px;
+	border-radius: 3px;
+	
+	
+}
+
+#login_div button{
+	font-size:12px;
+	border-radius:5px;
+	padding:3px;
+	padding-right:10px;
+	padding-left:10px;
+	
+	
+}
+
+.disclaimer{
+	font-size:9px;
+	
+}
+
+#trajet_list{
+	width:70%;
+	margin:auto;
+	padding:5px;
+	display:flex;
+	justify-content:center;
+flex-wrap:wrap;
+	
+}
+.trajet{
+	font-family:'Montserrat';
+	margin:10px;
+	padding:5px;
+	width:220px;
+
+	
+}
+
+.trajet td{
+	
+  padding: 8px;
+  text-align: center;
+	border-bottom: 1px solid black;
+	font-size:12px;
+}
+
+.trajet table{
+	
+	margin: auto;
+	margin-bottom:10px;
+	border-collapse: collapse;
+}
+.trajet:hover{
+	cursor:pointer;
+	
+}
+
+.mecanic{
+	
+	background-color:#b3dead;
+}
+
+.mecanic:hover{
+	
+	background-color:#88de7c;
+}
+
+.electric{
+	
+	background-color:#badee3;
+}
+
+.electric:hover{
+	background-color:#72c8d4;
+	
+}
+
+.broken{
+	
+	background-color:#edb9b9;
+}
+
+
+.broken:hover{
+	
+	background-color:#de6f6f;
+}
+
+h1
+{
+	font-family: 'Amatic SC';
+	font-size: 120px;
+    font-weight: 400;
+	color: #333;
+	line-height: 120px;
+    text-align: center;
+    vertical-align: baseline;
+    direction: ltr;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+header
+{
+	margin-top:5px;
+	
+}
+
+header nav
+{
+margin:10px;
+
+}
+
+
+header nav ul {
+    padding: 0;
+    height: 0;
+    margin: 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 1.3em;
+    margin: 0 auto;
+}
+
+
+header nav ul li a {
+    padding-right: 15px;
+    padding-left: 15px;
+	text-decoration: none;
+	color: #000;
+}
+
+header nav ul li {
+    font-family: "Amatic SC";
+    font-size: 30px;
+    transition: background-color 0.3s ease 0s;
+    list-style-type: none;
+    float: left;
+    vertical-align: baseline;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.5;
+}
+
+
+
+.current{
+    background-color: #333333;
+}
+
+.current a{
+	
+    color: #FFF;
+	
+}
+header nav ul li:hover {
+    background-color: #999;
+    color: #FFF;
+}
+
+#logout{
+	border-left:1px solid #aaa;
+	
+}
+
+#logout a{
+	color:#d91619;
+}
+#logout:hover a{
+	color: #FFF;
+	
+}
+
+#logout:hover{
+	background-color:#d91619;
+	color:white;
+	
+	
+}
+
+
+
+
+#profil_container{
+	font-family:'Montserrat';
+	width:80%;
+	margin:auto;
+	display:flex;
+	justify-content:space-around;
+	padding:10px;
+	
+}
+
+#profil_statistics td{
+	
+	padding:8px;
+	border-bottom: 1px solid black;
+}
+
+#profil_statistics table{
+	
+	margin: auto;
+	margin-bottom:10px;
+	border-collapse: collapse;
+	
+}
+
+#profil_subcontainer{
+	display:flex;
+	width:60%;
+	height:100%;
+	margin:5px;
+    flex-direction: column;
+	
+	
+}
+
+
+#profil_statistics{
+	width:35%;
+	padding:5px;
+	margin:5px;
+	border-top: 2px solid black;
+	height:100%;
+	
+}
+
+#profil_userInfo{
+	
+	margin-bottom:2px;
+	padding:5px;
+	border-top: 2px solid black;
+	height:35%;
+	
+	
+}
+
+#profil_lastRides{
+	margin-top:3px;
+	padding:5px;
+	border-top: 2px solid black;
+	height:65%;
+	
+	
+}
+#profil_container h2{
+	font-family:'Amatic SC';
+	font-size:70px;
+	margin:5px;
+	margin-left:10px;
+	
+	
+}
+
+#userAbo{
+	
+	
+	font-size:20px;
+	margin:10px;
+	
+}
+
+#chart_container{
+	font-family:'Montserrat';
+	display:flex;
+	justify-content:space-around;
+	width:70%;
+	margin:auto;
+	padding:10px;
+	
+}
+
+#chart_list{
+	margin-right:5px;
+	padding:10px;
+	width:20%;
+	margin-top:80px;
+	
+}
+
+#chart_div{
+	width:75%;
+	margin-left:5px;
+	padding:20px;
+	padding-left:50px;
+	padding-right:50px;
+	
+	
+}
+
+#chart_list ul{
+	
+    display: table;
+	
+}
+
+#chart_list ul li{
+list-style: url('../img/bike.png')
+
+}
+
+#chart_list ul li:hover{
+color:#3f9099;
+cursor:pointer;
+}
+
+.chart{
+	
+	max-width:95%;
+	max-height:95%;
+	
+}
+
+
+
+.badges_container{
+	margin:auto;
+	width:70%;
+	text-align:center;
+	
+}
+.badges_container h2{
+	font-family:'Amatic SC';
+	font-size: 50px;
+	
+}
+
+#voyages{
+	width:100%;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	font-family:'Montserrat';
+	
+	
+	
+}
+
+#badges{
+	width:100%;
+	margin:auto;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	font-family:'Montserrat';
+	
+	
+}
+
+.trip{
+	
+	padding:10px;
+	margin:10px;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	max-width:15%;
+	
+	
+	
+}
+.trip img{
+	width:150px;
+	height:150px;
+	border-radius: 150px;
+	margin:10px;
+	
+	
+}
+
+.trip img:hover{
+	cursor:pointer;
+	
+}
+
+.badge{
+	
+	padding:10px;
+	margin:10px;
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+	max-width:15%;
+	
+	
+}
+
+.badge img{
+	width:150px;
+	height:150px;
+	border-radius: 150px;
+	margin:10px;
+	
+	
+}
+
+.badge img:hover{
+	cursor:pointer;
+	
+}
+
+#profil_lastRidesT{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	
+}
+
+#boutons {
+	font-family:'Montserrat';
+	display:flex;
+	justify-content:center;
+	
+}
+#boutons nav{
+	padding:4px;
+	margin:1px;
+	
+}
+
+#thisOneT{
+	background-color:#555;
+	color:#FFF;
+	
+}
+
+.clicBouton:hover{
+	cursor:pointer;
+	background-color:#999;
+	color:#FFF;
+	
+	
+}
